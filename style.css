@@ -1,0 +1,89 @@
+/*body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}*/
+#contenedor{
+	background:url("img/cybercity.jpg") no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Monoton';
+	color:#EF09F6;
+	text-shadow: 1px 1px 2px black, 0 0 25px #23FC05, 0 0 5px white; 
+	margin: 2px;
+	padding: 50px;
+}
+p{
+	color:#EF09F6;
+	font-size:25px;
+	margin-left:2%;
+	text-shadow: 1px 1px 2px black, 0 0 25px #23FC05, 0 0 5px white;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+button{
+	color:white;
+	background-color: black;
+	text-shadow: 1px 1px 2px black, 0 0 25px #23FC05, 0 0 5px #23FC05;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Monoton';
+	box-shadow: 5px 5px 8px #EF09F6, 10px 10px 8px #23FC05;
+	margin-left:43%;
+}
+#carretera {
+	position: absolute;
+	background: url("img/road1.jpg") repeat;
+	background-position: bottom ;
+	background-size: contain;
+	top: 70%;
+	width: 100%;
+	height: 353px;
+}
+#meta{
+	background:url("img/finishline.png");
+	position: absolute;
+	background-position: bottom;
+	background-size: contain;
+    bottom: 0px;
+    top:70%;
+    width: 30px;
+    height: 353px;
+    right: 0;
+    margin-right: 8%;
+}
+
+img{
+	width: 68px;
+	position: relative;
+	border:none;
+	margin-left: 0px;
+}
+#reiniciar{
+	display: none;
+}
+li{
+	color: white;
+}
+#posiciones{
+	background-color: black;
+	background-size: 100px;
+	background-position:left;
+	margin-left:80%;
+	margin-right: 12%;
+	padding: 2px;
+}
+
+
+
